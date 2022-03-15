@@ -69,3 +69,14 @@ li p {
   border-radius: 12px;
   background: rgba(228, 228, 228, 0.9);
 }
+
+.timeline-innerline {
+  position: absolute;
+  background: blue;
+  width: 0%;
+  height: 4px;
+  top: 0;
+  left: 0;
+  transition: 1s linear;
+  border-radius: 999px;
+}
