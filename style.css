@@ -26,4 +26,29 @@ section {
 ul {
   margin-top: 30px;
   display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  position: relative;
+}
+
+li p {
+  transform: translateY(-10px);
+  opacity: 0;
+  padding: 0 20px;
+  transition: all 1.5s ease-in-out;
+}
+
+.timeline-point {
+  position: absolute;
+  border: none;
+  border-radius: 50%;
+  background: rgba(228, 228, 228, 0.9);
+  width: 15px;
+  height: 15px;
+  top: -40px;
+  left: 40%;
+  transition: all 1.5s ease-in-out;
 }
