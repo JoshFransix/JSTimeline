@@ -7,8 +7,8 @@ let observer = new IntersectionObserver((entries, observer) => {
       // show timeline event
       timeline_events.forEach((e) => {
         showTime(e);
-        line.style.width = "100%";
       });
+      line.style.width = "100%";
     }
   });
 });

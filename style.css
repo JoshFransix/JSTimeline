@@ -40,7 +40,7 @@ li p {
   transform: translateY(-10px);
   opacity: 0;
   padding: 0 20px;
-  transition: all 1.5s ease-in-out;
+  transition: 1.5s;
 }
 
 .date {
