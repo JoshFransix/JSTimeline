@@ -88,8 +88,6 @@ li p {
 
 @media screen and (min-width: 728px) {
   .timeline {
-    margin: 150px 0;
-    padding: 15px;
   }
 
   ul {
@@ -98,7 +96,7 @@ li p {
 
   li {
     width: 100%;
-    padding-top: 0 20px;
+    padding: 0 20px;
   }
 
   .date {
