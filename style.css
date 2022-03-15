@@ -22,3 +22,8 @@ section {
   margin: 150px 0;
   padding: 15px;
 }
+
+ul {
+  margin-top: 30px;
+  display: flex;
+}
