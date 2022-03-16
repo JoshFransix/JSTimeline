@@ -69,8 +69,7 @@ li p {
 
 .timeline-line {
   position: relative;
-  width: 100%;
-  height: 4px;
+  width: 4px;
   border-radius: 12px;
   background: rgba(228, 228, 228, 0.9);
 }
@@ -78,8 +77,8 @@ li p {
 .timeline-innerline {
   position: absolute;
   background: blue;
-  width: 0%;
-  height: 4px;
+  width: 4px;
+  height: 0%;
   top: 0;
   left: 0;
   transition: 1s linear;
@@ -100,12 +99,8 @@ li p {
   }
 
   .date {
-    position: absolute;
     top: -160%;
     left: 38%;
-    font-size: 12px;
-    opacity: 0;
-    transition: all 1.5s ease-in-out;
   }
 
   .timeline-point {
@@ -129,13 +124,7 @@ li p {
   }
 
   .timeline-innerline {
-    position: absolute;
-    background: blue;
     width: 0%;
     height: 4px;
-    top: 0;
-    left: 0;
-    transition: 1s linear;
-    border-radius: 999px;
   }
 }
